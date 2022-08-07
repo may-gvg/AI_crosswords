@@ -103,10 +103,7 @@ class Crossword:
                             length=length
                         ))
 
-        # Compute overlaps for each word
-        # For any pair of variables v1, v2, their overlap is either:
-        #    None, if the two variables do not overlap; or
-        #    (i, j), where v1's ith character overlaps v2's jth character
+     
         self.overlaps = dict()
         for v1 in self.variables:
             for v2 in self.variables:
